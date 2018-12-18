@@ -3,34 +3,34 @@ spring:
     active:
     - dev
 
----   #ÒÔÈı¸ö-·Ö¸ô
+---   #ä»¥ä¸‰ä¸ª-åˆ†éš”
 
 server: 
-	port: 8201
+  port: 8201
 	
 spring:
-  profiles: dev  #¿ª·¢»·¾³
+  profiles: dev  #å¼€å‘ç¯å¢ƒ
   application:
     name: microservicecloud-config-client
 
 eureka:
-	client:
-		service-url:
-			defaultZone: http://eureka-dev.com:7001/eureka/
+  client:
+    service-url:
+      defaultZone: http://eureka-dev.com:7001/eureka/
 ---
 
 server: 
 	port: 8202
 	
 spring:
-  profiles: test  #¿ª·¢»·¾³
+  profiles: test  #å¼€å‘ç¯å¢ƒ
   application:
     name: microservicecloud-config-client
 
 eureka:
-	client:
-		service-url:
-			defaultZone: http://eureka-test.com:7001/eureka/
+  client:
+    service-url:
+      defaultZone: http://eureka-test.com:7001/eureka/
             
             
             
