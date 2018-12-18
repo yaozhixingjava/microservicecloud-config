@@ -3,7 +3,7 @@
 server:
   prot: 8001
 spring:
-  profiles: test
+  profiles: dev
   application:
     name: microservicecloud-dept
   datasource:
